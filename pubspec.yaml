@@ -1,0 +1,23 @@
+name: roleta_viciada_windows
+description: Roleta de participantes com sessões, regras e histórico.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.12.2
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_modular: ^6.4.1
+  mobx: ^2.6.0
+  flutter_mobx: ^2.3.0
+  sqflite_common_ffi: ^2.4.6
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  cryptography: ^2.9.0
+  file_picker: ^8.3.7
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
